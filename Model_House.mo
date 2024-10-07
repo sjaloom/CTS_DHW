@@ -1,6 +1,6 @@
 within ;
 model Model_House
-  inner IDEAS.BoundaryConditions.SimInfoManager sim
+  inner IDEAS.BoundaryConditions.SimInfoManager sim(H=11)
     annotation (Placement(transformation(extent={{-94,74},{-74,94}})));
   IDEAS.Buildings.Components.Window window_North(
     redeclare IDEAS.Buildings.Data.Glazing.Ins2Ar2020 glazing,
