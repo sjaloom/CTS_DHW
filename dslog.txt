@@ -1,0 +1,35 @@
+Log-file of program ./dymosim
+(generated: Mon Oct  7 14:41:03 2024)
+
+dymosim started
+... "Modelica.Mechanics.MultiBody.Examples.Systems.RobotR3.FullRobot" simulating
+... "dsin.txt" loading (dymosim input file)
+... "FullRobot.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+Simulation successfully terminated
+... End condition reached
+
+Integration terminated successfully at T = 1.856045002
+   CPU-time for integration                : 0.223 seconds
+   CPU-time for one grid interval          : 0.48 milliseconds
+   CPU-time for initialization             : 0.001 seconds
+   Number of result points                 : 557
+   Number of grid points                   : 466
+   Number of accepted steps                : 1484
+   Number of f-evaluations (dynamics)      : 2823
+   Number of crossing function evaluations : 2248
+   Number of Jacobian-evaluations          : 339
+   Number of model time events             : 4
+   Number of input time events             : 0
+   Number of state events                  : 42
+   Number of step events                   : 0
+   Minimum integration stepsize            : 1.64e-08
+   Maximum integration stepsize            : 0.0309
+   Maximum integration order               : 5
+Calling terminal section
+... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of Modelica.Mechanics.MultiBody.Examples.Systems.RobotR3.FullRobot
+The simulation finished due to the use of terminate()
