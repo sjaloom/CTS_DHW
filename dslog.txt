@@ -1,35 +1,82 @@
 Log-file of program ./dymosim
-(generated: Mon Oct  7 14:41:03 2024)
+(generated: Mon Oct  7 18:11:41 2024)
 
 dymosim started
-... "Modelica.Mechanics.MultiBody.Examples.Systems.RobotR3.FullRobot" simulating
+... "Model_House" simulating
 ... "dsin.txt" loading (dymosim input file)
-... "FullRobot.mat" creating (simulation result file)
+Warning: The following was detected at time: 0
+  *** Warning: You are using a flow or pressure controlled mover with the
+             default pressure curve.
+             This leads to approximate calculations of the electrical power
+             consumption. Add the correct pressure curve in the record per
+             to obtain an accurate computation.
+             Setting nominalValuesDefineDefaultPressureCurve=true will suppress this warning.
+  Failed condition: fan.nominalValuesDefineDefaultPressureCurve
+
+Warning: The following was detected at time: 0
+  *** Warning: You are using a flow or pressure controlled mover with the
+             default pressure curve.
+             This leads to approximate calculations of the electrical power
+             consumption. Add the correct pressure curve in the record per
+             to obtain an accurate computation.
+             Setting nominalValuesDefineDefaultPressureCurve=true will suppress this warning.
+  Failed condition: fan1.nominalValuesDefineDefaultPressureCurve
+
+Warning: The following was detected at time: 0
+  In Model_House.window_North: You may have intended to model a frame since the parameter 'frac' is larger than zero. However, no frame type is configured such that no frame will be modelled. This may be a mistake. Set frac=0 to avoid this warning if this is intentional.
+  Failed condition: false
+
+Warning: The following was detected at time: 0
+  In Model_House.window_East: You may have intended to model a frame since the parameter 'frac' is larger than zero. However, no frame type is configured such that no frame will be modelled. This may be a mistake. Set frac=0 to avoid this warning if this is intentional.
+  Failed condition: false
+
+Warning: The following was detected at time: 0
+  In Model_House.window_South: You may have intended to model a frame since the parameter 'frac' is larger than zero. However, no frame type is configured such that no frame will be modelled. This may be a mistake. Set frac=0 to avoid this warning if this is intentional.
+  Failed condition: false
+
+Warning: The following was detected at time: 0
+  In Model_House.window_West: You may have intended to model a frame since the parameter 'frac' is larger than zero. However, no frame type is configured such that no frame will be modelled. This may be a mistake. Set frac=0 to avoid this warning if this is intentional.
+  Failed condition: false
+
+Warning: The following was detected at time: 0
+  In Model_House.window_NorthB: You may have intended to model a frame since the parameter 'frac' is larger than zero. However, no frame type is configured such that no frame will be modelled. This may be a mistake. Set frac=0 to avoid this warning if this is intentional.
+  Failed condition: false
+
+Warning: The following was detected at time: 0
+  In Model_House.window_EastB: You may have intended to model a frame since the parameter 'frac' is larger than zero. However, no frame type is configured such that no frame will be modelled. This may be a mistake. Set frac=0 to avoid this warning if this is intentional.
+  Failed condition: false
+
+Warning: The following was detected at time: 0
+  In Model_House.window_SouthB: You may have intended to model a frame since the parameter 'frac' is larger than zero. However, no frame type is configured such that no frame will be modelled. This may be a mistake. Set frac=0 to avoid this warning if this is intentional.
+  Failed condition: false
+
+Warning: The following was detected at time: 0
+  In Model_House.window_WestB: You may have intended to model a frame since the parameter 'frac' is larger than zero. However, no frame type is configured such that no frame will be modelled. This may be a mistake. Set frac=0 to avoid this warning if this is intentional.
+  Failed condition: false
+
+... "Model_House.mat" creating (simulation result file)
 
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
-Simulation successfully terminated
-... End condition reached
 
-Integration terminated successfully at T = 1.856045002
-   CPU-time for integration                : 0.223 seconds
-   CPU-time for one grid interval          : 0.48 milliseconds
-   CPU-time for initialization             : 0.001 seconds
-   Number of result points                 : 557
-   Number of grid points                   : 466
-   Number of accepted steps                : 1484
-   Number of f-evaluations (dynamics)      : 2823
-   Number of crossing function evaluations : 2248
-   Number of Jacobian-evaluations          : 339
-   Number of model time events             : 4
+Integration terminated successfully at T = 864000
+   CPU-time for integration                : 13.9 seconds
+   CPU-time for one grid interval          : 2.78 milliseconds
+   CPU-time for initialization             : 0.139 seconds
+   Number of result points                 : 5048
+   Number of grid points                   : 5001
+   Number of accepted steps                : 1119
+   Number of f-evaluations (dynamics)      : 2112
+   Number of crossing function evaluations : 6301
+   Number of Jacobian-evaluations          : 410
+   Number of model time events             : 0
    Number of input time events             : 0
-   Number of state events                  : 42
+   Number of state events                  : 23
    Number of step events                   : 0
-   Minimum integration stepsize            : 1.64e-08
-   Maximum integration stepsize            : 0.0309
-   Maximum integration order               : 5
+   Minimum integration stepsize            : 0.00148
+   Maximum integration stepsize            : 4.15e+03
+   Maximum integration order               : 4
 Calling terminal section
 ... "dsfinal.txt" creating (final states)
 
-SUCCESSFUL simulation of Modelica.Mechanics.MultiBody.Examples.Systems.RobotR3.FullRobot
-The simulation finished due to the use of terminate()
+SUCCESSFUL simulation of Model_House

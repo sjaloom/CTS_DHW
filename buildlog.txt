@@ -2,6 +2,23 @@
 Compiling and linking the model (Visual C++). 
  
 dsmodel.c
+dsmodel.c(4619): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+dsmodel.c(4633): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+dsmodel.c(15666): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+dsmodel.c(15672): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+dsmodel.c(22026): warning C4018: '<': signed/unsigned mismatch
+dsmodel.c(24696): warning C4018: '<': signed/unsigned mismatch
+dsmodel.c(27308): warning C4018: '<': signed/unsigned mismatch
+dsmodel.c(27833): warning C4018: '<': signed/unsigned mismatch
+dsmodel.c(28951): warning C4018: '<': signed/unsigned mismatch
+dsmodel.c(29052): warning C4018: '<': signed/unsigned mismatch
+dsmodel.c(29623): warning C4018: '<': signed/unsigned mismatch
+dsmodel.c(31475): warning C4018: '<': signed/unsigned mismatch
+dsmodel.c(33626): warning C4018: '<': signed/unsigned mismatch
+dsmodelext1.c
+dsmodelext2.c
+dsmodelext3.c
+Generating Code...
    Creating library dymosim.lib and object dymosim.exp
  
 Successful generation of Dymosim. 
